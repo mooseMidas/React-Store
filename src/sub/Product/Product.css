@@ -1,0 +1,33 @@
+ 
+.products{
+  box-shadow: 2px 2px 8px #888888;
+  padding: 1rem;
+}
+
+.product-image{
+  width: 18rem;
+  height: 18rem;
+}
+
+.product-image:hover{
+  background-image: linear-gradient(rgba(255,0,0,0), rgb(92, 90, 90));
+}
+
+.product-title{
+  font-size: 1.5rem;
+  text-decoration: underline;
+}
+
+.product-price{
+  font-weight: 700;
+}
+
+.thumbsup{
+  float: right;
+}
+
+.thumbsup:hover{
+  background-color: red;
+  border-radius: 5rem;
+}
+

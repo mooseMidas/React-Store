@@ -1,0 +1,40 @@
+
+#landing{
+  color: black;
+  font-weight: 600;
+  text-align: center;
+  line-height: 3rem;
+  font-size: 1.5rem;
+  background-color: white;
+  background-image: linear-gradient(rgba(255, 255, 255, 0.082), rgb(126, 125, 125)), url("https://images.unsplash.com/photo-1669205073423-5da5a5280572?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=870&q=80");
+  background-repeat: no-repeat;
+  background-size:cover;
+  background-position: center;
+  height: 100vh;
+}
+
+
+.header-title span {
+  color: red;
+}
+
+.header-title:hover {
+  color: red;
+}
+
+.post-text{
+  word-spacing: 0.5rem;
+}
+
+.quote{
+  text-decoration: underline 5px;
+}
+
+.footer{
+  text-align: center;
+  text-decoration: underline;
+}
+
+.social:hover{
+  color: red;
+}

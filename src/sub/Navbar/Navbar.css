@@ -1,0 +1,64 @@
+
+.container{
+  background-image: linear-gradient(rgba(255,0,0,0), rgb(92, 90, 90));
+}
+
+/* CSS: Cascading Style Sheets | MDN, Using CSS gradients - CSS: Cascading Style Sheets: MDN, Retrieved on 22 March 2023 from https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Images/Using_CSS_gradients
+ */
+
+  * {
+  box-sizing: border-box;
+}
+
+.nav {
+  color: black;
+  display: flex;
+  justify-content: space-between;
+  align-items: stretch;
+  gap: 2rem;
+  padding: 0 1rem;
+  max-width: 100%;
+}
+/* flex display and spaced-between values helps position items neatly  */
+
+.home {
+  font-weight: 600;
+  font-size: 1.5rem;
+}
+
+.home:hover {
+  background-color: #777;
+  border-radius: 4px;
+}
+
+.nav ul {
+  padding: 0;
+  margin: 0;
+  /* Removed list styling */
+  list-style: none;
+  display: flex;
+  gap: 1rem;
+}
+
+/* Below styling is necessary to change Link styling*/
+.nav a {
+  color: inherit;
+  text-decoration: none;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  padding: .25rem;
+  font-weight: 600;
+}
+
+/* below styling will apply to link comp that is currently active/clicked on */
+.nav li.active {
+  background-color: red;
+  border-radius: 4px;
+  color: white;
+}
+
+.nav li:hover {
+  background-color: #777;
+  border-radius: 4px;
+}
